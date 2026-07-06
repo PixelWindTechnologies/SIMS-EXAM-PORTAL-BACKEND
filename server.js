@@ -10,7 +10,7 @@ const app = express();
 // Middleware
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://sims-exam-portal.vercel.app"
+  "https://klu-exam-portal.vercel.app"
 ];
 
 app.use(cors({
