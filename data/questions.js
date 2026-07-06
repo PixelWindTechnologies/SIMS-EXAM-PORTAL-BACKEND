@@ -865,11 +865,10 @@ print(x == x[:], x is x[:])
 {
     id: 56,
     topic: "NumPy",
-    question: "What will be the shape of the following array?
-
+    question: """What will be the shape of the following array?
 import numpy as np
 a = np.arange(24).reshape(2,3,4)
-",
+""",
     options: [
         "(24,)",
         "(2,12)",
