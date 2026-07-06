@@ -2,9 +2,9 @@ const User = require('../models/User');
 const Result = require('../models/Result');
 const questions = require('../data/questions');
 
-const EXAM_DURATION = 10 * 60; // 60 minutes in seconds
+const EXAM_DURATION = 6 * 60; // 60 minutes in seconds
 const PASS_MARK = 65;
-const MAX_TAB_SWITCHES = 1;
+const MAX_TAB_SWITCHES = 3;
 
 // Fisher-Yates shuffle
 const shuffleArray = (array) => {
